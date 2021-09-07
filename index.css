@@ -1,0 +1,43 @@
+div {
+  background: yellow;
+  color: red;
+}
+
+#quote {
+  font-family: "verdana";
+  color: blue;
+}
+
+.Fruits {
+  color: red;
+  background: yellow;
+}
+
+.ruits {
+  color: greenyellow;
+}
+
+span#author {
+  text-transform: uppercase;
+}
+
+#skills tr th {
+  color: orange;
+}
+
+h3 + p {
+  background: pink;
+}
+
+a[class] {
+  background: grey;
+}
+
+#lorem {
+  background: black;
+  color: white;
+
+  border: 3px solid red;
+  padding: 13px 13px 13px 20px;
+  margin: 10px auto;
+}
