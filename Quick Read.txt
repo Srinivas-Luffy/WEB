@@ -1,0 +1,5 @@
+ng generate componenet course
+
+ng serve --open
+
+[(ngModel)] - two-way data binding
