@@ -1,6 +1,14 @@
 <h2>Courses</h2>
-<ul class="courses">
-  <li>
-    <span class="badge">{{ course.name }}</span>
-  </li>
-</ul>
+<div>
+  <ul>
+    <li *ngFor="let course of courses">
+      <div>
+        <button (click)="onSelect(course)">
+          {{ course.id }}
+          {{ course.name }}
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+<app-course-detail [course]="selectedCourse"></app-course-detail>

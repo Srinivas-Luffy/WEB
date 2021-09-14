@@ -8,8 +8,8 @@ import { COURSES } from '../mock-courses';
 })
 export class CoursesComponent implements OnInit {
 
-  public course = COURSES;
- // selectedCourse!: Course;
+  courses = COURSES;
+  selectedCourse!: Course;
 
 
   constructor() { }
@@ -17,9 +17,10 @@ export class CoursesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // onSelect(course: Course):void{
-  //   this.selectedCourse = course;
-  // }
+  onSelect(course: Course):void{
+    this.selectedCourse = course;
+    //alert(this.selectedCourse.name);
+  }
 
 
 }
