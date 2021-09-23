@@ -3,3 +3,9 @@ ng generate componenet course
 ng serve --open
 
 [(ngModel)] - two-way data binding
+
+Decorators - https://www.youtube.com/watch?v=eymapQ0GzOw
+
+Services - 1:51:23
+
+providers(something that can create or deliver service) - 1:53:35
